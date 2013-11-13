@@ -1,0 +1,32 @@
+doctype 5
+html
+  head
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans')
+    link(rel='stylesheet', href='/css/style.css')    
+    script(src='/js/socket.io.min.js')    
+    script(src='/js/jquery-2.0.3.min.js')
+    script(src='/js/index.js')
+    title Portable Chat
+  body
+    h1 Node Portable Chatroom
+      span.userName Username:
+        input(type="text", maxlength=10, minlength=2, value="Anonymous")#name.rounded-corners
+    div.chatArea.rounded-corners
+      div.topArea
+        div.userList
+          b.green Participants (
+            span#totalPart
+            | )
+          br
+          div#participants
+        div.messageArea
+          div#messages
+          span#end
+        div.commentArea
+          form#messageForm.rounded-corners
+            textarea(rows="4", cols="50", placeholder="Share something!", maxlength=200)#outgoingMessage.rounded-corners
+            br
+            input(type="button", value="Share", disabled=true)#send.buttonCenter.rounded-corners
+
+
+    

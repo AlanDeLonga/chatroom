@@ -1,0 +1,90 @@
+body {
+  padding: 3em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+ width: 875px;
+}
+
+textarea {
+  resize: none;
+}
+
+#messages{
+	padding: 20px 0;
+}
+
+.messageArea{
+	display: inline-block;
+	min-height: 325px;
+	padding: 0 15px;
+	width: 70%;
+	max-height: 325px;
+	overflow-x: scroll;
+	margin-top: 10px;
+}
+.buttonCenter{
+	height: 30px;
+	margin: 0 20% 7px 0;
+    width: 300px;
+}
+.userList{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	padding: 20px;
+	overflow-x: scroll;
+	height:300px;
+	max-height: 300px;
+}
+
+.red{
+	color: red;
+}
+.green{
+	color: green;
+}
+.orange{
+	color: orange;
+}
+.blue{
+	color: blue;
+}
+
+.topAligned {
+ vertical-align: top;
+}
+
+.chatArea{
+	border: 2px solid #000;
+	height: 100%;
+}
+
+.commentArea{
+	text-align: right;
+}
+.commentArea textarea{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-right: 10px;
+    width: 70%;
+	background-color: #DDEEEE;
+	padding: 10px;
+}
+
+#name{
+	margin: 10px;
+	background-color: #DCDCDC;
+	text-align: center;
+}
+.userName{
+	font-size: 16px;
+	font-weight: 100;
+	float: right;
+}
+
+.rounded-corners {
+     -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
